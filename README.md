@@ -74,20 +74,19 @@ You can see the live demo of the website [here](https://restaurant-liard-ten.ver
 ## 🧠 Key Learnings 
 Through this project, I learned:
 
-- **Building fully responsive UIs using Bootstrap.
-- **API integration using Axios with asynchronous data handling. 
-- **Using Leaflet.js for embedding interactive maps.
-- **Creating dynamic modals and managing component state.
-- **Managing shopping cart logic and state updates (add/edit/remove items).
-- **Implementing form validation using Formik and Yup.
-- **Enhancing user experience with loading spinners and hot toast notifications.
-- **Creating interactive UI sliders with Splide.
-- **Working with reusable components and responsive layout techniques.
-- 
+- Building fully responsive UIs using Bootstrap.
+- API integration using Axios with asynchronous data handling. 
+- Using Leaflet.js for embedding interactive maps.
+- Creating dynamic modals and managing component state.
+- Managing shopping cart logic and state updates (add/edit/remove items).
+- Implementing form validation using Formik and Yup.
+- Enhancing user experience with loading spinners and hot toast notifications.
+- Creating interactive UI sliders with Splide.
+- Working with reusable components and responsive layout techniques.
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/restaurant-project.git
-cd restaurant-project
+git clone https://github.com/your-username/restaurant.git
+cd restaurant
 npm install
 npm start
