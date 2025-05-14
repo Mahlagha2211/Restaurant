@@ -37,7 +37,7 @@ export default function Reserve({ isOpen }) {
           }}
         >
           <RxCross2 onClick={closeReserveModal} className="outModal" />
-          <img src="../../image/environment4.jpg" alt="" />
+          <img src="/image/environment4.jpg" alt="" />
           <div className=" d-flex justify-content-center align-items-center">
             <p className="d-flex flex-column">
               For reservations and special events such as birthday, you can

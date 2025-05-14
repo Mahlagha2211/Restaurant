@@ -12,11 +12,11 @@ const cards = [
     price: 19,
     img: "../../../image/pizzafood.jpg",
   },
-  { id: 2, title: "pizza ", price: 19, img: "../../../image/sandwich.jpg" },
-  { id: 3, title: "pizza", price: 19, img: "../../../image/chicken1.webp" },
-  { id: 4, title: "pizza", price: 19, img: "../../../image/pizza2.jpg" },
-  { id: 5, title: "pizza", price: 19, img: "../../../image/pizza3.jpg" },
-  { id: 6, title: "pizza", price: 19, img: "../../../image/pizza1.jpg" },
+  { id: 2, title: "pizza ", price: 19, img: "/image/sandwich.jpg" },
+  { id: 3, title: "pizza", price: 19, img: "/image/chicken1.webp" },
+  { id: 4, title: "pizza", price: 19, img: "/image/pizza2.jpg" },
+  { id: 5, title: "pizza", price: 19, img: "/image/pizza3.jpg" },
+  { id: 6, title: "pizza", price: 19, img: "/image/pizza1.jpg" },
 ];
 
 export default function Special() {

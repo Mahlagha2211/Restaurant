@@ -1,5 +1,5 @@
 .back {
-  background-image: url("./../../image/deliciousMeal.jpg"),
+  background-image: url("/image/deliciousMeal.jpg"),
     linear-gradient(to right, rgba(80, 80, 80, 0.9), rgba(80, 80, 80, 0.9));
   background-size: cover;
   background-position: center;

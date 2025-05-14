@@ -36,7 +36,7 @@ export default function Nav() {
       <nav className="navbar navbar-expand-md navbar-dark ">
         <div className=" container-fluid">
           <a className="navbar-brand" href="#">
-            <img src="../../image/logo.jpg" alt="" />
+            <img src="/image/logo.jpg" alt="" />
           </a>
           <div className="d-flex shop">
             <div

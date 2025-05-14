@@ -4,7 +4,7 @@ import { GrNext, GrPrevious } from "react-icons/gr";
 import { useState } from "react";
 
 export default function News() {
-  const [activeImage, setActiveImage] = useState("../../../image/pizza.jpg");
+  const [activeImage, setActiveImage] = useState("/image/pizza.jpg");
   useEffect(() => {
     const carousel = document.querySelector("#demo");
 
@@ -51,21 +51,21 @@ export default function News() {
 
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="../../../image/pizza.jpg" alt="" />
+            <img src="/image/pizza.jpg" alt="" />
             <div className="carousel-caption ">
               <p>Los Angeles</p>
               <p>We had such a great time in LA!</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="../../../image/chicken.jpg" alt="" />
+            <img src="/image/chicken.jpg" alt="" />
             <div className="carousel-caption">
               <p>Los Angeles</p>
               <p>We had such a great time in LA!</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="../../../image/food1.jpg" alt="" />
+            <img src="/image/food1.jpg" alt="" />
             <div className="carousel-caption">
               <p>Los Angeles</p>
               <p>We had such a great time in LA!</p>
