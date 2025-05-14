@@ -27,7 +27,7 @@ export default function Footer() {
     <div className="footer">
       <div className="row topFooter">
         <div className="col-md-3 col-12 logo  ">
-          <img src="../../../image/logo.jpg" alt="" />
+          <img src="/image/logo.jpg" alt="" />
         </div>
         <div className="pagesChange col-md-3 col-4">
           <h5>Pages</h5>
@@ -48,21 +48,6 @@ export default function Footer() {
               Menu
             </NavLink>
 
-            <NavLink
-              to="/Book"
-              onClick={() => changepage()}
-              className={`footerLinks`}
-            >
-              Book
-            </NavLink>
-
-            <NavLink
-              to="/Contact"
-              onClick={() => changepage()}
-              className={`footerLinks`}
-            >
-              About Us
-            </NavLink>
           </div>
         </div>
         <div className="pagesChange col-md-4 col-sm-5 col-5 ">
