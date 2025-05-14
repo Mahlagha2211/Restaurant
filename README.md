@@ -1,12 +1,93 @@
-# React + Vite
+# 🍽️ Restaurant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive restaurant web app built with **Bootstrap** and powered by **TheMealDB API**, offering users an interactive and seamless digital menu experience with ordering and reservation features.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Demo
+You can see the live demo of the website [here](https://restaurant-liard-ten.vercel.app/).
 
-## Expanding the ESLint configuration
+### 🧭 Overview
+- Built with **HTML**, **CSS**, **React**, and **Bootstrap**.
+- Responsive across all devices (mobile, tablet, desktop).
+- Google Map integrated using **Leaflet** to show the restaurant's exact location.
+- Data fetched from [TheMealDB](https://www.themealdb.com) API.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧑‍🍳 Main Features
+
+### 📋 Menu Categories
+- Dynamic categories (e.g., Beef, Chicken, Seafood, etc.) fetched from API.
+- Clicking on a category displays its meals.
+
+### 🍲 Meal Details
+- Each meal is clickable.
+- A **Modal** opens showing full meal details:
+  - Description
+  - Ingredients
+  - Image
+  - Option to choose quantity and add to cart
+
+### 🛒 Shopping Cart
+- Add meals to the cart with selected quantity.
+- Edit quantity or remove meals directly from the cart.
+- Total price calculated and displayed dynamically.
+
+### 🌶️ Hot Items (Special Offers)
+- Highlighted section in the menu for special or new items.
+- Uses **Splide** for a smooth horizontal scroll slider.
+
+### 📍 Location
+- Interactive map embedded via **Leaflet** showing restaurant location.
+
+### 🔐 Auth System
+- Basic **Sign In** and **Login** modals provided.
+
+### 📅 Reservation
+- “Reserve a table” section available.
+- Shows contact methods and options in a modal popup.
+
+### ⏳ Loading State
+- Uses **React Spinner** for loading indicators during data fetching.
+
+### 🔗 Footer
+- Footer includes direct contact links and social media.
+
+---
+
+## 🚀 Technologies Used
+
+- **Bootstrap 5**
+- **Leaflet (react-leaflet)**
+- **Splide.js**
+- **Axios**
+- **React Hot Toast**
+- **React Modal**
+- **React Spinner**
+- **Formik & Yup**
+- **SimpleBar for custom scroll**
+- **FontAwesome Icons**
+- **TheMealDB API**
+
+---
+## 🧠 Key Learnings 
+Through this project, I learned:
+
+- **Building fully responsive UIs using Bootstrap.
+- **API integration using Axios with asynchronous data handling. 
+- **Using Leaflet.js for embedding interactive maps.
+- **Creating dynamic modals and managing component state.
+- **Managing shopping cart logic and state updates (add/edit/remove items).
+- **Implementing form validation using Formik and Yup.
+- **Enhancing user experience with loading spinners and hot toast notifications.
+- **Creating interactive UI sliders with Splide.
+- **Working with reusable components and responsive layout techniques.
+- 
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/restaurant-project.git
+cd restaurant-project
+npm install
+npm start
