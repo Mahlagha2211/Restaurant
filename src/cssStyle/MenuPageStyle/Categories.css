@@ -1,0 +1,70 @@
+.Container {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  user-select: none;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  width: 80%;
+  border-radius: 5px;
+}
+.CategoryContainer {
+  width: 75px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  flex-shrink: 0;
+  text-align: center;
+  cursor: pointer;
+}
+.CategoryContainer:hover {
+  transform: scale(1.09);
+}
+.categoryStyle {
+  border: 2px solid #fdde55;
+  box-shadow: inset 0 0 10px #fdde55;
+  transform: scale(1.09);
+}
+.CategoryImage {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  width: 100%;
+  height: 70%;
+}
+.btnChangeLocation {
+  color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 30px;
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.8);
+  transition: transform 0.1s linear;
+}
+.btnChangeLocation:hover {
+  transform: scale(1.11);
+}
+.CategoryName {
+  margin: 0px;
+  font-size: 13px;
+  color: #333;
+  font-weight: bold;
+}
+.container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+@media screen and (max-width: 500px) {
+  .containerOfCategory {
+    margin: 0 auto;
+    width: calc(100% - 30px);
+  }
+}

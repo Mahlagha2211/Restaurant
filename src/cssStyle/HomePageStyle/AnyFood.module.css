@@ -1,0 +1,44 @@
+.Anyfood {
+  transition: all 0.2s linear;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Anyfood img {
+  border-radius: 50%;
+  width: 90px;
+}
+.Anyfood p {
+  color: #ffffff;
+}
+.Anyfood div {
+  margin-left: 10px;
+}
+.Anyfood span {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(240, 240, 240);
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.Anyfood:hover {
+  transform: scale(1.05);
+}
+@media screen and (max-width: 768px) {
+  .Anyfood {
+    margin-bottom: 25px;
+  }
+  .Anyfood span {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 592px) {
+  .Anyfood img {
+    width: 85px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Anyfood img {
+    width: 70px;
+  }
+}

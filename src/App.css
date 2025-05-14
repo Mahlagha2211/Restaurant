@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.ReactModal__Body--open .splide__arrow,
+.ReactModal__Body--open .splide__pagination {
+  display: none !important;
+}

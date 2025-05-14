@@ -1,0 +1,140 @@
+nav {
+  margin-left: 5px;
+}
+
+nav .navbar-brand img {
+  width: 60px;
+  border-radius: 50%;
+}
+.nav-item {
+  margin: 0 10px;
+}
+.navbar-toggler {
+  box-shadow: none !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255 / 80%);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(255 255 255 / 60%);
+}
+.offcanvas {
+  --bs-offcanvas-bg: rgba(204, 198, 181, 0.7) !important;
+  max-height: 100vh;
+}
+#offcanvasNavbar {
+  width: 300px;
+}
+
+.offcanvas-backdrop {
+  backdrop-filter: blur(6px) !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.offcanvas-backdrop.show {
+  opacity: 1.7 !important;
+}
+.nav-link {
+  padding-left: 10px !important;
+}
+.shop1 {
+  font-size: 28px;
+  margin-right: 5px;
+}
+.shop1:hover {
+  color: rgb(255 255 255 / 60%);
+}
+.shop {
+  position: absolute;
+  gap: 20px;
+  top: 30px !important;
+  right: 25px;
+  color: rgb(255 255 255 / 80%);
+}
+.account {
+  cursor: pointer;
+}
+.counter1 {
+  position: absolute;
+  text-align: center;
+  width: 25px;
+  right: -10px;
+  top: -10px !important;
+  color: rgb(172, 172, 172);
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+.checkOut {
+  padding: 10px 15px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+}
+.checkOut p {
+  font-size: 20px;
+}
+.payment {
+  border-radius: 5px;
+  background-color: #fdde55;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.ReactmodalContent {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: rgba(224, 224, 224, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  outline: none;
+  animation: modalAnim 0.2s linear forwards;
+}
+.rxCross {
+  position: absolute;
+  cursor: pointer;
+  font-size: 20px;
+  top: 27px;
+  left: 30px;
+}
+@keyframes modalAnim {
+  from {
+    opacity: 0%;
+    top: 47%;
+  }
+  to {
+    opacity: 100%;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .shop {
+    right: 87px;
+  }
+  .nav-item :hover {
+    background-color: rgba(77, 76, 69, 0.5) !important;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+
+  .navItem {
+    background-color: #fdde55 !important;
+    font-weight: bold !important;
+    border-radius: 3px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navItem {
+    font-weight: bold !important;
+    border-bottom: 1px solid #fdde55;
+    color: #fdde55 !important;
+  }
+}
+@media screen and (max-width: 592px) {
+  #offcanvasCart {
+    width: 320px !important;
+  }
+  .ReactmodalContent {
+    width: 80%;
+  }
+}

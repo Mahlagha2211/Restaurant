@@ -1,0 +1,34 @@
+.back {
+  background-image: url("./../../image/deliciousMeal.jpg"),
+    linear-gradient(to right, rgba(80, 80, 80, 0.9), rgba(80, 80, 80, 0.9));
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+.fadeIn {
+  overflow: hidden;
+}
+.fixedMenu {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  padding: 15px;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: rgb(233, 171, 16);
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  box-shadow: 0 0 5px white;
+  font-weight: bold;
+}
+.fixedMenu:hover {
+  color: black;
+  background-color: rgb(206, 153, 20);
+}
+@media screen and (max-width:500px) {
+  .fixedMenu {
+    display: flex !important;
+  }
+}

@@ -1,0 +1,35 @@
+.foodName {
+  padding: 50px 36px 100px 36px;
+}
+.foodName h3,
+.foodName h1 {
+  color: rgb(211, 211, 211);
+}
+.foodName h3 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.foodName h1 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .foodName {
+    padding-top: 100px;
+    padding-left: 20px;
+  }
+  .foodName h3 {
+    font-size: 1.7rem;
+  }
+  .foodName h1 {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .foodName h3 {
+    font-size: 1.5rem;
+  }
+  .foodName h1 {
+    font-size: 2rem;
+  }
+}
