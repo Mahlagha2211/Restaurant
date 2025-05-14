@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-
-import styles from "../../cssStyle/HomepageStyle/SearchBar.module.css";
+import styles from "../../cssStyle/HomePageStyle/SearchBar.module.css";
 import Location from "./Location";
 
 export default function SearchBar() {
