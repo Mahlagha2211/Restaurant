@@ -86,7 +86,7 @@ Through this project, I learned:
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/restaurant.git
+git clone https://github.com/Mahlagha2211/restaurant.git
 cd restaurant
 npm install
 npm start
